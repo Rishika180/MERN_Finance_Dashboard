@@ -37,10 +37,11 @@ A full-featured Finance Dashboard built using the MERN stack with integrated mac
 
 ## 📁 Folder Structure
 
-/client → Frontend (React + Vite)
-/server → Backend (Express + MongoDB)
-/shared → Common interfaces/schemas (optional)
-/README.md → This file
+/frontend → React + MUI + Redux
+/backend → Node.js + Express + MongoDB
+/models → Database schemas
+/routes → API routes
+/utils → Helper functions
 
 
 ---
@@ -49,8 +50,8 @@ A full-featured Finance Dashboard built using the MERN stack with integrated mac
 
 ### 1. Clone the repo
 ```bash
-git clone 
-cd mern-finance-dashboard
+git clone https://github.com/Rishika180/MERN_Finance_Dashboard.git
+cd MERN_Finance_Dashboard
 2. Install dependencies
 Client
 cd client
@@ -70,23 +71,19 @@ MONGO_URI=your_mongo_db_url
 JWT_SECRET=your_jwt_secret
 
 🧠 Learning Highlights
-Hands-on experience with Redux Toolkit + RTK Query
+Implemented protected routes using JWT authentication
 
-API design with Express.js and MongoDB
+Designed dashboard layout using custom Material UI components
 
-Machine learning integration in a real-world app
-
-Frontend design using Material UI + responsive layouts
-
-Recharts customization for clean, interactive graphs
+Integrated ML-based revenue prediction feature
 
 🌍 Deployment
-Frontend: Vercel
-
-Backend: Fly.io / Render / Railway / Cyclic (choose one)
-
+Frontend: Vercel  
+Backend: Render  
 Database: MongoDB Atlas
 
-🙋‍♀️ Authors
-- [@aman-codde](https://github.com/aman-codde)
+
+🙋‍♀️ Author
+- **Rishika Agrawal** — [GitHub: @Rishika180](https://github.com/Rishika180)
+
 
